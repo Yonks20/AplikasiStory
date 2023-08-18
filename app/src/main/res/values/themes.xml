@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Submissioninter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/primaryColor</item>
+        <item name="backgroundColor">@color/lightBackgroundColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primaryColor</item>
+        <item name="colorSecondaryVariant">@color/primaryColor</item>
+        <item name="colorOnSecondary">@color/primaryColor</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/backgroundColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+    </style>
+
+    <style name="ToolbarStyle"  parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="titleTextColor">@color/textColor</item>
+        <item name="colorControlNormal">@color/textColor</item>
+    </style>
+
+    <style name="HeadingText">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SubheadingText">
+        <item name="android:textColor">@color/lightTextColor</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ExtraHeadingText">
+        <item name="android:textColor">@color/lightTextColor</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:backgroundTint">@color/lightBackgroundColor</item>
+        <item name="android:textColorHint">@color/lightTextColor</item>
+        <item name="drawableTint">@color/textColor</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="BodyText">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/lightTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BodyTextAccent">
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="RoundedStyleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
